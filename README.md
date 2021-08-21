@@ -6,7 +6,7 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-Desenvolvido um aplicativo básico do youtube, a fins de prática. Foi adicionado funcionalidades de listar videos, 
+Desenvolvido um aplicativo básico do youtube a fim de prática. Foi adicionado funcionalidades de listar videos, 
 executar videos e listar comentários relacionados ao video. 
 
 OBS: Para o funcionamento, é preciso de uma chave de API, gerado no Google Cloud Plataform, em credenciais.
