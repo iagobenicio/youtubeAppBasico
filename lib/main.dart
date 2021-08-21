@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
-import 'screens/controlscreen.dart';
+import 'screens/home.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
+
+
+Future main() async{
+  await dotenv.load(fileName: ".env");
   runApp(MaterialApp(
-    home: ControlScreen(),
+    debugShowCheckedModeBanner: false,
+    theme: ThemeData(
+      brightness: Brightness.dark,
+      visualDensity: VisualDensity.adaptivePlatformDensity
+    ),
+    home: Home(),
   ));
 }

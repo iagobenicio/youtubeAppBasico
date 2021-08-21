@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Biblioteca extends StatelessWidget {
+class EmAlta extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Text("biblioteca"),
+      child: Text("Em alta"),
     );
   }
 }
